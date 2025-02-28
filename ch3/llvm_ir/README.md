@@ -1,14 +1,27 @@
+# Building LLVM IR #
+
+In this exercise, you will build your first function using the LLVM intermediate representation (IR).
+
+Open `your_turn/populate_function.cpp` and implement the `myBuildModule` function according to the comment
+in that file.
+Then, follow the steps below to configure and build the test program and check that your solution matches the output of the provided solution.
+
+In other words, check that the printed LLVM IR after `## Processing module from Your solution implementation` line matches the solution printed after the `## Processing module from Reference implementation` line.
+
+## Configuring your environment ##
+
+
 ```bash
 cmake -GNinja -DCMAKE_BUILD_TYPE=Debug -DLLVM_DIR=<path/to/llvm/install>/lib/cmake/llvm -Bbuild .
 ninja -Cbuild
+```
+
+## Running the example ##
+
+```bash
 ./build/build_ir
 ```
 
-To produce an input:
-```bash
-clang -o - -S -emit-llvm test.c -O0 | sed -e 's#optnone##g' | <path/to/llvm/build>/bin/opt -S -passes=mem2reg,instnamer > input.ll
-```
+## Solution ##
 
-optnone => remove the attribute that prevents optimizations
-mem2reg => get rid of stack accesses / build SSA
-instnamer => get rid of the implicit variables
+If your output doesn't match the solution, look at `solution/populate_function.cpp` to see how to implement the desired IR.
