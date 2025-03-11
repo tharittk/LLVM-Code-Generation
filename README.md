@@ -7,7 +7,7 @@ Each directory has its own README.md with specific directions.
 
 Note:
 The exercises have been tested with the open source repository of LLVM at the
-Git hash 0fc4e3052454 from July 14th 2024.
+Git hash a4bf6cd7cfb1 from September 17th 2024. Which is LLVM 19.1.0.
 
 Some of the exercises interact directly with the LLVM C++ API.
 This API has no stability guarantee therefore it is possible that newer or older
