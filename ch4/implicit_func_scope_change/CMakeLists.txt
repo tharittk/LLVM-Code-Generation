@@ -2,8 +2,8 @@ set(CMAKE_CXX_STANDARD 17)
 
 cmake_minimum_required(VERSION 3.22)
 
-project(CH3
-        LANGUAGES CXX)
+project(CH4
+        LANGUAGES CXX C)
 
 set(CURR_TARGET
   implicit_change_of_scope
