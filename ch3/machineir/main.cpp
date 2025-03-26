@@ -1,3 +1,4 @@
+#include "llvm/CodeGen/CodeGenTargetMachineImpl.h"
 #include "llvm/CodeGen/MachineBasicBlock.h"
 #include "llvm/CodeGen/MachineFunction.h"
 #include "llvm/CodeGen/MachineModuleInfo.h"
@@ -50,7 +51,7 @@ int main() {
     errs() << TT << " is not available with this build of LLVM\n";
     return -1;
   }
-  LLVMTargetMachine *LLVMTM = static_cast<LLVMTargetMachine *>(
+  auto *LLVMTM = static_cast<CodeGenTargetMachineImpl *>(
       TheTarget->createTargetMachine(TT, "", "", TargetOptions(), std::nullopt,
                                      std::nullopt, CodeGenOptLevel::Default));
   MachineModuleInfoWrapperPass MMIWP(LLVMTM);
