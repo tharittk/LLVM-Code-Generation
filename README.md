@@ -1,5 +1,5 @@
-# How-to-Build-an-LLVM-Backend
-How to Build an LLVM Backend, published by Packt
+# LLVM Code Generation
+LLVM Code Generation, published by Packt
 
 Navigate in the different `chX` directory and look at the examples provided and
 do the exercises when applicable.
