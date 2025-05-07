@@ -4,7 +4,7 @@
 
 <p align="center">Quentin Colombet</p>
 
-<p align="center">This is the code repository for <a href ="https://www.packtpub.com/en-us/product/how-to-build-an-llvm-backend-first-edition/9781837637782"> LLVM Code Generation, First Edition</a>, published by Packt.</p>
+<p align="center">This is the code repository for <a href ="https://www.packtpub.com/en-us/product/how-to-build-an-llvm-backend-9781835462577"> LLVM Code Generation, First Edition</a>, published by Packt.</p>
 
 
 <p align="center">
@@ -19,7 +19,7 @@
 </p>
 <details open> 
   <summary><h2>About the book</summary>
-<a href="https://www.packtpub.com/en-us/product/how-to-build-an-llvm-backend-first-edition/9781837637782">
+<a href="https://www.packtpub.com/en-us/product/how-to-build-an-llvm-backend-9781835462577">
 <img src="https://m.media-amazon.com/images/I/71ROfFEJGOL._SL1500_.jpg" alt="LLVM Code Generation, First Edition" height="256px" align="right">
 </a>
 
