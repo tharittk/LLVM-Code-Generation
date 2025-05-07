@@ -20,7 +20,7 @@
 <details open> 
   <summary><h2>About the book</summary>
 <a href="https://www.packtpub.com/en-us/product/how-to-build-an-llvm-backend-first-edition/9781837637782">
-<img src="https://content.packt.com/B22046/cover_image_small.jpg" alt="LLVM Code Generation, First Edition" height="256px" align="right">
+<img src="https://m.media-amazon.com/images/I/71ROfFEJGOL._SL1500_.jpg" alt="LLVM Code Generation, First Edition" height="256px" align="right">
 </a>
 
 The LLVM infrastructure is a popular compiler ecosystem widely used in the tech industry and academia. This technology is crucial for both experienced and aspiring compiler developers looking to make an impact in the field. Written by Quentin Colombet, a veteran LLVM contributor and architect of the GlobalISel framework, this book provides a primer on the main aspects of LLVM, with an emphasis on its backend infrastructure; that is, everything needed to transform the intermediate representation (IR) produced by frontends like Clang into assembly code and object files.
