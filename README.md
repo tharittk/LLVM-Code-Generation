@@ -144,4 +144,4 @@ _Quentin Colombet_ is a veteran LLVM contributor specializing in compiler backen
 
 ## Errata
 
-* Page 11: In the command `$ git clone https://github.com/llvm/llvm/project.git` the URL should be `https://github.com/llvm/llvm-project.git`
+* Page 11: In the command `$ git clone https://github.com/llvm/llvm/project.git`, the URL should be `https://github.com/llvm/llvm-project.git`. Therefore, the first line becomes `$ git clone https://github.com/llvm/llvm-project.git`.
