@@ -145,3 +145,4 @@ _Quentin Colombet_ is a veteran LLVM contributor specializing in compiler backen
 ## Errata
 
 * Page 11: In the command `$ git clone https://github.com/llvm/llvm/project.git`, the URL should be `https://github.com/llvm/llvm-project.git`. Therefore, the first line becomes `$ git clone https://github.com/llvm/llvm-project.git`.
+* Page 71: In the descriptipn below Figure 3.4, the sentence "Because of that, inserting a store in A and **reloading in B** means that the whole dotted region needs to play nicely with this memory location." should be Because of that, inserting a store in A and **reloading in C** means that the whole dotted region needs to play nicely with this memory location.
